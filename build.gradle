@@ -128,8 +128,7 @@ intellij {
     version = "${ProductVersion}"
     downloadSources = false
     instrumentCode = false
-    // TODO: add plugins
-    // plugins = ["uml", "com.jetbrains.ChooseRuntime:1.0.9"]
+    plugins = ["JavaScript"]
 }
 
 runIde {
